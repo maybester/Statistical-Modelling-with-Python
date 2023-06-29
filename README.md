@@ -51,7 +51,12 @@
 1. Choose number of poi as independant variable and free bikes as dependent variable.
 
 ## Results![image](https://github.com/maybester/Statistical-Modelling-with-Python/assets/73912419/adb3cda6-292e-45a2-b65c-853562f02f05)
+<img width="794" alt="image" src="https://github.com/maybester/Statistical-Modelling-with-Python/assets/73912419/77b1f474-90b1-4aa4-9845-6eb9e8699f96">
+
+3. results.
+
 ![Uploading image.png…]()
+
 
 
 ## Challenges 
