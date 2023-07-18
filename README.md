@@ -71,14 +71,21 @@ c. p-value of the varibles are less than 0.05 which means the coefficient of the
 
 4. model evaluation
 
+there are some assumptions of the model are not met thus the results of the model may not generalize vey well.
 
+a. no perfect multicollinearity between predictor variables (vif>10).
 
-
+b. homoscedascity of residuals is not met since the variance of the residuals are changing.
 
 ## Challenges 
-1. Due to the complicated Json data structure, it makes parsing steps not easy.
 
-2. Ambigous documentation in Yelp API caused error in data extracting steps.
+the model is not generalizing well due to some assumptions of the linear regression is not met including the multicollinearity between predictor variables and the homoscedascity of residuals. therefore, these factors inceased the noise in data.
+
+<img width="427" alt="image" src="https://github.com/maybester/Statistical-Modelling-with-Python/assets/73912419/0951b73f-c987-4ee8-a51e-4b48d08454b3">
+
+
+<img width="453" alt="image" src="https://github.com/maybester/Statistical-Modelling-with-Python/assets/73912419/3e83708c-7d8f-464c-af2d-6a40dd585247">
+
 
 ## Future Goals
 1. Multi-linear regression conducted to explore correlation between multiple variables besides from poi values such as rating and number of reviews.
