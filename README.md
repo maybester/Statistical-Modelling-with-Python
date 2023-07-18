@@ -48,14 +48,30 @@
 
 ### Build Regression Model
 
-1. Choose number of poi as independant variable and free bikes as dependent variable.
+1. data preprocessing:
+data exploration: the dataset contains 663 entries of rows with 11 variables.
+<img width="662" alt="image" src="https://github.com/maybester/Statistical-Modelling-with-Python/assets/73912419/5c8326e1-d0c0-4894-8f44-f5861493411b">
 
-## Results![image](https://github.com/maybester/Statistical-Modelling-with-Python/assets/73912419/adb3cda6-292e-45a2-b65c-853562f02f05)
-<img width="794" alt="image" src="https://github.com/maybester/Statistical-Modelling-with-Python/assets/73912419/77b1f474-90b1-4aa4-9845-6eb9e8699f96">
+The relationship between poi and free bikes is stronger than other predictors in the graph.
 
-3. results.
+Data cleaning: missing, duplicate, or inconsistent values and remove irrelevant data to ensure the quality of the data.
 
-![Uploading image.png…]()
+Data transformation: convert the data into a format suitable for analysis and modelling including data scaling and normalizing.
+
+2. model selection
+
+<img width="759" alt="image" src="https://github.com/maybester/Statistical-Modelling-with-Python/assets/73912419/6e9b0da5-30eb-4d2a-bf9b-b94312e95a8e">
+
+
+a. the value of R squared is 60% which means the model is capable of explaining 60% of the pattern in the data.
+
+b. total slots of each bike station have positive correlation to the poi numbers of the station, which means if the station neighbour has more poi, the bike station tend to have more slots for bikes. Meanwhile, other variables such as empty_slots, free_bikes have negative correlation to the target poi, which means is the station neighbour has more poi, the station tend to have fewer free bikes and empty slots for more usage of the bike.
+
+c. p-value of the varibles are less than 0.05 which means the coefficient of the variables are statistically significant. the p-value of empty slots and total slots are 0, which means the probability of the relationship between the two variables and the target poi numbers being solely due to natural variation is 0.
+
+4. model evaluation
+
+
 
 
 
