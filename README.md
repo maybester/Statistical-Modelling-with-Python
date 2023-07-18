@@ -88,6 +88,7 @@ the model is not generalizing well due to some assumptions of the linear regress
 
 
 ## Future Goals
-1. Multi-linear regression conducted to explore correlation between multiple variables besides from poi values such as rating and number of reviews.
 
-2. More categories of poi can be explored in terms of the correlation to free bikes other than just bars and restaurants.
+though judging by the r-square, the current model can explain 60% of the data and the performance is satisfactory, there are still some improvements can be made since not all assumptions of model are met. thus, in the future process, to improvement fitness of model, we can adopt more complicated one such as polynomial regression to performa better fit of the dataset.
+   
+   
